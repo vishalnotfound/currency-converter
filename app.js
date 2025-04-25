@@ -55,7 +55,7 @@ const updateExchange = async () => {
 
     //show in msg
     let msg = document.querySelector(".msg");
-    msg.innerText = `${amount} ${fromCurr.value} is ${totalAmt.toFixed(2)} ${toCurr.value}`;
+    msg.innerHTML = `<strong>${amount} ${fromCurr.value} is ${totalAmt.toFixed(2)} ${toCurr.value}</strong>`;
 
 
     console.log(data);
