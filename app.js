@@ -67,6 +67,7 @@ const updateExchange = async () => {
 btn.addEventListener("click", (evt)=>{
     evt.preventDefault();
     updateExchange(); //call the fn to update the exchage rate.
+    console.log(totalAmt);
 });
 
 window.addEventListener("load", ()=>{
