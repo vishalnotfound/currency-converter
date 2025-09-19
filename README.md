@@ -1,1 +1,1 @@
-currency convertor application using fetch application
+currency convertor application using fetch api
