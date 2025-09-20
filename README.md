@@ -1,1 +1,1 @@
-currency convertor application using fetch api
+currency convertor application using fetch api and dropdown, this api is free
